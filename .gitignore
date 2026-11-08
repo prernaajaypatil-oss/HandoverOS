@@ -1,7 +1,19 @@
-node_modules/
-.env
-.venv/
+# Python virtual environment
+backend/venv/
+
+# Python cache
 __pycache__/
 *.pyc
-dist/
+
+# SQLite database
+*.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+
+# VS Code
 .vscode/
